@@ -1,4 +1,6 @@
+
 <!DOCTYPE html><html>
+
 <head>
   <title>Calculator</title>
   <meta charset="utf-8">
@@ -9,13 +11,18 @@
     function sin() {
     var num = document.getElementById("n1");
     num.value = Math.sin(num.value); }
+    function cuatro() {
+    var num = document.getElementById("n1");
+    num.value = Math.pow(num.value, 4); }
   </script>
 </head>
+
 <body>
   <h1>Calculadora de Daniel Albares Martin </h1>
   Number:
   <input type="text" id="n1">
   <button onclick="cube()"> x^3 </button>
   <button onclick="sin()"> sin </button>
+  <button onclick="cuatro()"> x^4 </button>
 </body>
 </html>
